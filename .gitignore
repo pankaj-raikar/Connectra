@@ -1,0 +1,51 @@
+# Dependencies
+/frontend/node_modules/
+/.pnp
+.pnp.js
+
+# Next.js Build Outputs
+/frontend/.next/
+/frontend/out/
+/frontend/build/
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+backend/env/
+env/
+venv/
+.venv/
+
+# Testing & Reports
+/frontend/test-results/
+/frontend/playwright-report/
+pytest-summary.txt
+backend.log
+*.log
+
+# Environment variables & secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+frontend/.env
+frontend/.env.local
+backend/.env
+
+# IDE & OS Files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+Thumbs.db
+ehthumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
